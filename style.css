@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Base;
+    src: url(IBMPlexSerif-Regular.ttf);
+}
+
+* {
+   font-family: Base;
+}
