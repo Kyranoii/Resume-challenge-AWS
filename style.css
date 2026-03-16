@@ -6,3 +6,41 @@
 * {
    font-family: Base;
 }
+
+body {
+    background-color: #FFFFFF;
+}
+
+.home {
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+    color: #000000;
+}
+
+.home:hover {
+    transition: color 0.3s ease-in;
+    color: #A60D0D;
+}
+
+.navLink {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    background-image:linear-gradient(#A60D0D 0 0);
+    background-position: 0 100%;
+    background-size: 25% 1px;
+    background-repeat: no-repeat;
+    transition: 
+    background-size 0.3s,
+    background-position 0s 0.3s;
+}
+
+.navLink:hover {
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+}
+
+.navItem {
+    background-position: 100% 100%;
+    list-style-type: none;
+}
